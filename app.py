@@ -6,7 +6,7 @@ import plotly.express as px
 st.title("Data analysis for vehicles")
 
 # Load CSV
-df = pd.read_csv("vehicles_us.csv")
+df = pd.read_csv("vehicles_preprocessed.csv")
 
 # Show data
 st.header("vehicle data")
